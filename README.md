@@ -36,8 +36,10 @@ This project simulates a basic OpenBanking system with RESTful APIs:
 **Accounts**
 - GET /api/accounts/{iban}/balance — Get current balance
 - GET /api/accounts/{iban}/transactions — Get last 10 transactions
+
 **Payments**
 - POST /api/payments/initiate — Initiate new IBAN-to-IBAN payment
+
 **Mock External Bank**
 - GET /mock-bank/accounts/{iban}/balance
 - GET /mock-bank/accounts/{iban}/transactions
